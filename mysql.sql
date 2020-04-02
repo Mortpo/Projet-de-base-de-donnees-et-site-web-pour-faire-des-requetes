@@ -3,12 +3,11 @@ CREATE DATABASE ubisoft;
 USE ubisoft;
 
 CREATE TABLE IF NOT EXISTS Jeu( 
-    id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT, 
-       titre_du_jeu VARCHAR(40) NOT NULL, 
+       id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+       titre_du_jeu VARCHAR(40) UNIQUE NOT NULL, 
        annee_de_sortie INT(4) NOT NULL, 
        directeur_du_jeu VARCHAR(40) NOT NULL, 
-       nom_de_la_franchise VARCHAR(30), 
-       PRIMARY KEY (id) 
+       nom_de_la_franchise VARCHAR(30)
 ) ENGINE=INNODB; 
 
 LOAD DATA LOCAL INFILE 'jeu.csv' 
@@ -19,7 +18,7 @@ IGNORE 1 LINES
 (id,titre_du_jeu,annee_de_sortie,directeur_du_jeu,nom_de_la_franchise);
 
 CREATE TABLE IF NOT EXISTS Genre( 
-    genre VARCHAR(40) NOT NULL, 
+    genre VARCHAR(40) UNIQUE NOT NULL, 
        PRIMARY KEY (genre) 
 ) ENGINE=INNODB;
 
@@ -31,8 +30,9 @@ IGNORE 1 LINES
 (genre);
 
 CREATE TABLE IF NOT EXISTS Genrejeu( 
-       genre_jeu VARCHAR(40) NOT NULL,
        id_jeu SMALLINT UNSIGNED NOT NULL,
+       genre_jeu VARCHAR(40) NOT NULL,
+       
        CONSTRAINT fk_genre_genrejeu
         FOREIGN KEY (genre_jeu)
         REFERENCES Genre(genre),
@@ -48,11 +48,12 @@ INTO TABLE Genrejeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(genre_jeu,id_jeu);
+(id_jeu, genre_jeu);
 
-CREATE TABLE IF NOT EXISTS NomDLC( 
-       nomDLC VARCHAR(40) NOT NULL PRIMARY KEY,
+CREATE TABLE IF NOT EXISTS NomDLC(
        id_jeu_DLC SMALLINT UNSIGNED NOT NULL,
+       nomDLC VARCHAR(40) NOT NULL PRIMARY KEY,
+
        CONSTRAINT fk_jeu_id_jeu_DLC
         FOREIGN KEY (id_jeu_DLC)
         REFERENCES Jeu(id)       
@@ -80,8 +81,9 @@ IGNORE 1 LINES
 (personnage_principal);
 
 CREATE TABLE IF NOT EXISTS Personnagejeu( 
-       personnage_principaljeu VARCHAR(40) NOT NULL,
        id_jeu_personnagejeu SMALLINT UNSIGNED NOT NULL,
+       personnage_principaljeu VARCHAR(40) NOT NULL,
+
        CONSTRAINT fk_personnagejeu_principal
         FOREIGN KEY (personnage_principaljeu)
         REFERENCES Personnage(personnage_principal),
@@ -97,7 +99,7 @@ INTO TABLE Personnagejeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(personnage_principaljeu, id_jeu_personnagejeu);
+(id_jeu_personnagejeu, personnage_principaljeu);
 
 CREATE TABLE IF NOT EXISTS Studio( 
        nom_studio VARCHAR(40) NOT NULL PRIMARY KEY      
@@ -112,8 +114,9 @@ IGNORE 1 LINES
 (nom_studio);
 
 CREATE TABLE IF NOT EXISTS Studiojeu( 
-       studio_studiojeu VARCHAR(40) NOT NULL,
        id_jeu_studiojeu SMALLINT UNSIGNED NOT NULL,
+       studio_studiojeu VARCHAR(40) NOT NULL,
+
        CONSTRAINT fk_studio_studiojeu
         FOREIGN KEY (studio_studiojeu)
         REFERENCES Studio(nom_studio),
@@ -129,7 +132,8 @@ INTO TABLE Studiojeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(studio_studiojeu, id_jeu_studiojeu);
+(id_jeu_studiojeu, studio_studiojeu);
+
 
 CREATE TABLE IF NOT EXISTS Support( 
        support VARCHAR(40) NOT NULL PRIMARY KEY     
@@ -161,7 +165,4 @@ INTO TABLE Supportjeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(supportjeu, id_jeu_support);
-
-
-
+(id_jeu_support, supportjeu);
