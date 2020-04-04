@@ -4,7 +4,7 @@ USE ubisoft;
 
 CREATE TABLE IF NOT EXISTS Jeu( 
        id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-       titre_du_jeu VARCHAR(40) UNIQUE NOT NULL, 
+       titre_du_jeu VARCHAR(200) UNIQUE NOT NULL, 
        annee_de_sortie INT(4) NOT NULL, 
        directeur_du_jeu VARCHAR(40) NOT NULL, 
        nom_de_la_franchise VARCHAR(30)
@@ -30,15 +30,15 @@ IGNORE 1 LINES
 (genre);
 
 CREATE TABLE IF NOT EXISTS Genrejeu( 
-       id_jeu SMALLINT UNSIGNED NOT NULL,
-       genre_jeu VARCHAR(40) NOT NULL,
+       id SMALLINT UNSIGNED NOT NULL,
+       genre VARCHAR(40) NOT NULL,
        
        CONSTRAINT fk_genre_genrejeu
-        FOREIGN KEY (genre_jeu)
+        FOREIGN KEY (genre)
         REFERENCES Genre(genre),
 
-       CONSTRAINT fk_jeu_id_jeu
-        FOREIGN KEY (id_jeu)
+       CONSTRAINT fk_jeu_id
+        FOREIGN KEY (id)
         REFERENCES Jeu(id)       
        
 ) ENGINE=INNODB;
@@ -48,14 +48,14 @@ INTO TABLE Genrejeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(id_jeu, genre_jeu);
+(id, genre);
 
 CREATE TABLE IF NOT EXISTS NomDLC(
-       id_jeu_DLC SMALLINT UNSIGNED NOT NULL,
+       id SMALLINT UNSIGNED NOT NULL,
        nomDLC VARCHAR(40) NOT NULL PRIMARY KEY,
 
-       CONSTRAINT fk_jeu_id_jeu_DLC
-        FOREIGN KEY (id_jeu_DLC)
+       CONSTRAINT fk_DLC_id
+        FOREIGN KEY (id)
         REFERENCES Jeu(id)       
        
 ) ENGINE=INNODB;
@@ -65,11 +65,11 @@ INTO TABLE NomDLC
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(nomDLC,id_jeu_DLC);
+(nomDLC,id);
 
 
 CREATE TABLE IF NOT EXISTS Personnage( 
-       personnage_principal VARCHAR(40) NOT NULL PRIMARY KEY   
+       personnage_principal VARCHAR(200) NOT NULL PRIMARY KEY   
        
 ) ENGINE=INNODB;
 
@@ -81,15 +81,15 @@ IGNORE 1 LINES
 (personnage_principal);
 
 CREATE TABLE IF NOT EXISTS Personnagejeu( 
-       id_jeu_personnagejeu SMALLINT UNSIGNED NOT NULL,
-       personnage_principaljeu VARCHAR(40) NOT NULL,
+       id SMALLINT UNSIGNED NOT NULL,
+       personnage_principal VARCHAR(200) NOT NULL,
 
        CONSTRAINT fk_personnagejeu_principal
-        FOREIGN KEY (personnage_principaljeu)
+        FOREIGN KEY (personnage_principal)
         REFERENCES Personnage(personnage_principal),
 
        CONSTRAINT fk_personnagejeu_id
-        FOREIGN KEY (id_jeu_personnagejeu)
+        FOREIGN KEY (id)
         REFERENCES Jeu(id)       
        
 ) ENGINE=INNODB;
@@ -99,7 +99,7 @@ INTO TABLE Personnagejeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(id_jeu_personnagejeu, personnage_principaljeu);
+(id, personnage_principal);
 
 CREATE TABLE IF NOT EXISTS Studio( 
        nom_studio VARCHAR(40) NOT NULL PRIMARY KEY      
@@ -114,15 +114,15 @@ IGNORE 1 LINES
 (nom_studio);
 
 CREATE TABLE IF NOT EXISTS Studiojeu( 
-       id_jeu_studiojeu SMALLINT UNSIGNED NOT NULL,
-       studio_studiojeu VARCHAR(40) NOT NULL,
+       id SMALLINT UNSIGNED NOT NULL,
+       nom_studio VARCHAR(40) NOT NULL,
 
-       CONSTRAINT fk_studio_studiojeu
-        FOREIGN KEY (studio_studiojeu)
+       CONSTRAINT fk_nom_studio
+        FOREIGN KEY (nom_studio)
         REFERENCES Studio(nom_studio),
 
-       CONSTRAINT fk_id_studiojeu
-        FOREIGN KEY (id_jeu_studiojeu)
+       CONSTRAINT fk_id
+        FOREIGN KEY (id)
         REFERENCES Jeu(id)       
        
 ) ENGINE=INNODB;
@@ -132,11 +132,11 @@ INTO TABLE Studiojeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(id_jeu_studiojeu, studio_studiojeu);
+(id, nom_studio);
 
 
 CREATE TABLE IF NOT EXISTS Support( 
-       support VARCHAR(40) NOT NULL PRIMARY KEY     
+       support VARCHAR(70) NOT NULL PRIMARY KEY     
        
 ) ENGINE=INNODB;
 
@@ -148,14 +148,14 @@ IGNORE 1 LINES
 (support);
 
 CREATE TABLE IF NOT EXISTS Supportjeu( 
-       supportjeu VARCHAR(40) NOT NULL,
-       id_jeu_support SMALLINT UNSIGNED NOT NULL,
-       CONSTRAINT fk_supportjeu
-        FOREIGN KEY (supportjeu)
+       support VARCHAR(70) NOT NULL,
+       id SMALLINT UNSIGNED NOT NULL,
+       CONSTRAINT fk_support
+        FOREIGN KEY (support)
         REFERENCES Support(support),
 
-       CONSTRAINT fk_id_supportjeu
-        FOREIGN KEY (id_jeu_support)
+       CONSTRAINT fk_id_support
+        FOREIGN KEY (id)
         REFERENCES Jeu(id)       
        
 ) ENGINE=INNODB;
@@ -165,12 +165,14 @@ INTO TABLE Supportjeu
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(id_jeu_support, supportjeu);
+(id, support);
 
 --afficher tout les jeux d'actions
-SELECT Jeu.id, Jeu.titre_du_jeu FROM Jeu  INNER JOIN Genrejeu     ON Genrejeu.id_jeu = Jeu.id WHERE genre_jeu = 'Action';
+SELECT Jeu.id, Jeu.titre_du_jeu, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu     ON Genrejeu.id = Jeu.id WHERE genre = 'Action';
 
 --afficher tout les jeux dont le personnage principal est Dartan
-SELECT Jeu.id, Jeu.titre_du_jeu FROM Jeu  INNER JOIN Personnagejeu     ON Personnagejeu.id_jeu_personnagejeu = Jeu.id WHERE personnage_principaljeu = 'Dastan';
+SELECT Jeu.id, Jeu.titre_du_jeu, Personnagejeu.personnage_principal FROM Jeu  INNER JOIN Personnagejeu     ON Personnagejeu.id = Jeu.id WHERE personnage_principal = 'Dastan';
+
+SELECT Jeu.id, Jeu.titre_du_jeu, directeur_du_jeu FROM Jeu WHERE directeur_du_jeu = 'Kevin Guillemette';
 
 
