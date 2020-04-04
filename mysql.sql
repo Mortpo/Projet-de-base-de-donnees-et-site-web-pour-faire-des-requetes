@@ -166,3 +166,11 @@ FIELDS TERMINATED BY ';'
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
 (id_jeu_support, supportjeu);
+
+--afficher tout les jeux d'actions
+SELECT Jeu.id, Jeu.titre_du_jeu FROM Jeu  INNER JOIN Genrejeu     ON Genrejeu.id_jeu = Jeu.id WHERE genre_jeu = 'Action';
+
+--afficher tout les jeux dont le personnage principal est Dartan
+SELECT Jeu.id, Jeu.titre_du_jeu FROM Jeu  INNER JOIN Personnagejeu     ON Personnagejeu.id_jeu_personnagejeu = Jeu.id WHERE personnage_principaljeu = 'Dastan';
+
+
