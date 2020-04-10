@@ -173,8 +173,10 @@ SELECT Jeu.id, Jeu.titre_du_jeu, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu   
 --afficher tout les jeux dont le personnage principal est Dartan
 SELECT Jeu.id, Jeu.titre_du_jeu, Personnagejeu.personnage_principal FROM Jeu  INNER JOIN Personnagejeu     ON Personnagejeu.id = Jeu.id WHERE personnage_principal = 'Dastan';
 
+--afficher tout les jeux creer par kevin Guillemette
 SELECT Jeu.id, Jeu.titre_du_jeu, directeur_du_jeu FROM Jeu WHERE directeur_du_jeu = 'Kevin Guillemette';
 
+--afficher tout les jeux creer par BLue Byte Software
 SELECT Jeu.id, Jeu.titre_du_jeu, Studiojeu.nom_studio FROM Jeu INNER JOIN Studiojeu ON Studiojeu.id = Jeu.id WHERE nom_studio = 'Blue Byte Software';
 
 --afficher tout les jeux sortie par ubisoft montreal sortie en 2003
