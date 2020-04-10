@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS Jeu(
        id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
        titre_du_jeu VARCHAR(200) UNIQUE NOT NULL, 
        annee_de_sortie INT(4) NOT NULL, 
-       directeur_du_jeu VARCHAR(40) NOT NULL, 
+       directeur_du_jeu VARCHAR(100) NOT NULL, 
        nom_de_la_franchise VARCHAR(30)
 ) ENGINE=INNODB; 
 
@@ -18,7 +18,7 @@ IGNORE 1 LINES
 (id,titre_du_jeu,annee_de_sortie,directeur_du_jeu,nom_de_la_franchise);
 
 CREATE TABLE IF NOT EXISTS Genre( 
-    genre VARCHAR(40) UNIQUE NOT NULL, 
+    genre VARCHAR(100) UNIQUE NOT NULL, 
        PRIMARY KEY (genre) 
 ) ENGINE=INNODB;
 
@@ -31,7 +31,7 @@ IGNORE 1 LINES
 
 CREATE TABLE IF NOT EXISTS Genrejeu( 
        id SMALLINT UNSIGNED NOT NULL,
-       genre VARCHAR(40) NOT NULL,
+       genre VARCHAR(100) NOT NULL,
        
        CONSTRAINT fk_genre_genrejeu
         FOREIGN KEY (genre)
@@ -52,7 +52,7 @@ IGNORE 1 LINES
 
 CREATE TABLE IF NOT EXISTS NomDLC(
        id SMALLINT UNSIGNED NOT NULL,
-       nomDLC VARCHAR(40) NOT NULL PRIMARY KEY,
+       nomDLC VARCHAR(100) NOT NULL PRIMARY KEY,
 
        CONSTRAINT fk_DLC_id
         FOREIGN KEY (id)
@@ -102,7 +102,7 @@ IGNORE 1 LINES
 (id, personnage_principal);
 
 CREATE TABLE IF NOT EXISTS Studio( 
-       nom_studio VARCHAR(40) NOT NULL PRIMARY KEY      
+       nom_studio VARCHAR(100) NOT NULL PRIMARY KEY      
        
 ) ENGINE=INNODB;
 
@@ -115,7 +115,7 @@ IGNORE 1 LINES
 
 CREATE TABLE IF NOT EXISTS Studiojeu( 
        id SMALLINT UNSIGNED NOT NULL,
-       nom_studio VARCHAR(40) NOT NULL,
+       nom_studio VARCHAR(100) NOT NULL,
 
        CONSTRAINT fk_nom_studio
         FOREIGN KEY (nom_studio)
@@ -148,7 +148,7 @@ IGNORE 1 LINES
 (support);
 
 CREATE TABLE IF NOT EXISTS Supportjeu( 
-       support VARCHAR(70) NOT NULL,
+       support VARCHAR(100) NOT NULL,
        id SMALLINT UNSIGNED NOT NULL,
        CONSTRAINT fk_support
         FOREIGN KEY (support)
@@ -174,5 +174,13 @@ SELECT Jeu.id, Jeu.titre_du_jeu, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu   
 SELECT Jeu.id, Jeu.titre_du_jeu, Personnagejeu.personnage_principal FROM Jeu  INNER JOIN Personnagejeu     ON Personnagejeu.id = Jeu.id WHERE personnage_principal = 'Dastan';
 
 SELECT Jeu.id, Jeu.titre_du_jeu, directeur_du_jeu FROM Jeu WHERE directeur_du_jeu = 'Kevin Guillemette';
+
+SELECT Jeu.id, Jeu.titre_du_jeu, Studiojeu.nom_studio FROM Jeu INNER JOIN Studiojeu ON Studiojeu.id = Jeu.id WHERE nom_studio = 'Blue Byte Software';
+
+--afficher tout les jeux sortie par ubisoft montreal sortie en 2003
+SELECT Jeu.id, Jeu.titre_du_jeu, Studiojeu.nom_studio, annee_de_sortie FROM Jeu INNER JOIN Studiojeu ON Studiojeu.id = Jeu.id WHERE nom_studio = 'Ubisoft Montréal' AND annee_de_sortie = '2003';
+
+--afficher tous les jeux d'actions a etre sortie apres 2001
+SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre = 'Action' AND annee_de_sortie >= '2001';
 
 
