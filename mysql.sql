@@ -82,7 +82,7 @@ IGNORE 1 LINES
 
 CREATE TABLE IF NOT EXISTS Personnagejeu( 
        id SMALLINT UNSIGNED NOT NULL,
-       personnage_principal VARCHAR(200) NULL,
+       personnage_principal VARCHAR(200) NOT NULL,
 
        CONSTRAINT fk_personnagejeu_principal
         FOREIGN KEY (personnage_principal)
