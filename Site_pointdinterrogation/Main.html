@@ -5,115 +5,185 @@
     <meta charset="utf-8">
     <title>Base de donnée sur les jeux Ubisoft avant 2006</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 
 <body>
-    <h1><strong>1.</strong> Requête pour avoir tout les jeux en fonction de leur genre</h1>
-    <div>
-        <form action="actionnum1.php" method="POST">
-            <p>Le genre : <input type="text" name="genre" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
-        <p>
-            Les genres possible sont : RPG, Aventure, Action, Course, Arcade, Mystère, Sport, 2 Joueurs, Tennis,
-            Plates-formes, Multijoueur, Shoot'em up, Shooter, Point and Click, Football, Educatif, Formule 1,
-            Simulation, Gestion, Stratégie en temps réel, FPS, Tactique, Puzzle, Hasard, Société, Equitation, TPS, Beat
-            them all, Combat motorise, Strategie, Combat Aérien, Party game, Tir, Echecs, Myst-like, Boxe, Scrabble,
-            Infiltration, Stratégie tour par tour, Investigation, Avion, Plateformes, MMORPG, Guerre, Réflexion, Dating
-            Simulation, Animaux, Survie, Horreur, Stylisme, Economique, Sous-marin.
-        </p>
-    </div>
+    <ul>
+        <li>
+            <h1>Requête pour avoir tout les jeux en fonction de leur genre</h1>
+            <div>
+                <form action="actionnum1.php" method="POST">
+                    <p>Le genre : <input type="text" name="genre" /> <input type="submit" class="button"
+                            value="Executer"></p>
+                </form>
+                <button>Information</button>
+                <p class="info">
+                        Les genres possible sont : RPG, Aventure, Action, Course, Arcade, Mystère, Sport, 2 Joueurs, Tennis,
+                    Plates-formes, Multijoueur, Shoot'em up, Shooter, Point and Click, Football, Educatif, Formule 1,
+                    Simulation, Gestion, Stratégie en temps réel, FPS, Tactique, Puzzle, Hasard, Société, Equitation,
+                    TPS, Beat
+                    them all, Combat motorise, Strategie, Combat Aérien, Party game, Tir, Echecs, Myst-like, Boxe,
+                    Scrabble,
+                    Infiltration, Stratégie tour par tour, Investigation, Avion, Plateformes, MMORPG, Guerre, Réflexion,
+                    Dating
+                    Simulation, Animaux, Survie, Horreur, Stylisme, Economique, Sous-marin.
+                </p>
+            </div>
+        </li>
 
-    <h1><strong>2.</strong> Requête pour avoir tout les jeux en fonction du personnage principale</h1>
-    <div>
-        <form action="actionnum2.php" method="POST">
-            <p>Le nom du personnage principale : <input type="text" name="personnage" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
+        <li>
+            <h1>Requête pour avoir tout les jeux en fonction du personnage principale</h1>
+            <div>
+                <form action="actionnum2.php" method="POST">
+                    <p>Le nom du personnage principale : <input type="text" name="personnage" /> <input type="submit"
+                            class="button" value="Executer"></p>
+                </form>
+                <button>Information</button>
+                <p class="info">
+                        Les personnages possible sont : Patrick, Yannick, Alexandre, Sylvie, Snail Lispken, Dracula, Ulopa,
+                    Zad,
+                    Ranx, Artaban, Indiana Jones, Hodja
+                    Nasreddin, Frank Instein, Suzulu, Biff, Raphael, Surf Sister, Helmut von Poitenegger, Sumo-San,
+                    Rabbit,
+                    Rayman, Marine Malice, Luther, Justin, Valdo, Bubba Kosh, Asghan, Buck, Laura, John Clark, Hype,
+                    Rocket, Ed,
+                    Angel Sanchez, Zio Matrix, Batman, Donald duck, Blanche-Neige, ICP, Cyprien, Alexandra Lerdermann,
+                    Hikaru,
+                    Ryudo Geohound, Largo Winch, Rocky, Sam Fisher, Jade, D.B. Russel, Jack Lorski, Alexandra ledermann,
+                    XIII,
+                    Mademoiselle de Chardigny, Spike, Natalie, Casi, Professor, Helga, Jack Carver, Dastan, Sherlock
+                    Holmes,
+                    Becky, Brett, Luke Skywalker, Ding Chavez, Sergent Matt Baker, Sergent Joe Hartsock, Tom Hansen,
+                    Nowe, Jack,
+                    Jian Campbell, Samanosuke Akechi, Jacques Blanc, Hugh Hefner, Anakin Skywalker, Obi-Wan Kenobi,
+                    Tork.
+                </p>
+            </div>
+        </li>
 
-        <p>
-            Les personnages possible sont : Patrick, Yannick, Alexandre, Sylvie, Snail Lispken, Dracula, Ulopa, Zad,
-            Ranx, Artaban, Indiana Jones, Hodja
-            Nasreddin, Frank Instein, Suzulu, Biff, Raphael, Surf Sister, Helmut von Poitenegger, Sumo-San, Rabbit,
-            Rayman, Marine Malice, Luther, Justin, Valdo, Bubba Kosh, Asghan, Buck, Laura, John Clark, Hype, Rocket, Ed,
-            Angel Sanchez, Zio Matrix, Batman, Donald duck, Blanche-Neige, ICP, Cyprien, Alexandra Lerdermann, Hikaru,
-            Ryudo Geohound, Largo Winch, Rocky, Sam Fisher, Jade, D.B. Russel, Jack Lorski, Alexandra ledermann, XIII,
-            Mademoiselle de Chardigny, Spike, Natalie, Casi, Professor, Helga, Jack Carver, Dastan, Sherlock Holmes,
-            Becky, Brett, Luke Skywalker, Ding Chavez, Sergent Matt Baker, Sergent Joe Hartsock, Tom Hansen, Nowe, Jack,
-            Jian Campbell, Samanosuke Akechi, Jacques Blanc, Hugh Hefner, Anakin Skywalker, Obi-Wan Kenobi, Tork.
-        </p>
+        <li>
+            <h1>Requête pour avoir tout les jeux en fonction du directeur du jeu</h1>
+            <div>
+                <form action="actionnum3.php" method="POST">
+                    <p>Le nom du directeur : <input type="text" name="directeur" /> <input type="submit" class="button"
+                            value="Executer"></p>
+                </form>
+                <button>Information</button>
+                <p class="info">
+                        Les directeur possible sont : Hervé Lange, Philippe Baumard, George Andrew Romero, Christophe Gomez,
+                    Inconnu, Christophe Le Bouil, Yannick Cadin, Serge Payeur, Hervé Dudognon, Orou Mama, Olivier Marty,
+                    Thomas
+                    Hauser, Laurent Lichnewsky, Therry Platon, Mevlut Dinc, Michel Ancel, Alexis Nolent, Fabrice Valay,
+                    Peggy
+                    Desplats, Volker Wertich, Brian Upton, Alain Tascan, Anne McCaffrey's, Steve Fawkner, Ed del
+                    Castillo, Mark
+                    Buchignani, Robyn Miller, Eric Viennot, Steve Fawker, Julien Barès, Kevin Guillemette, Masaki Ukyo,
+                    Anthony
+                    E. Zuiker, Patrick Fortier, Jalil Amr, Annick Dumais, Christian Allen, and Miller, Shane Collier,
+                    Keiji
+                    Inafune,
+                </p>
+            </div>
+        </li>
 
-    </div>
+        <li>
+            <h1>Requête pour avoir tout les jeux sortie avant ou après une date</h1>
+            <div>
+                <form action="actionnum4.php" method="POST">
+                    <p>Date de sortie : avant <label class="switch"> <input type="checkbox"> <span
+                                class="slider round"></span>
+                        </label> après<input type="number" name="date" /> <input type="submit" class="button"
+                            value="Executer">
+                    </p>
+                </form>
+                <button>Information</button>
+                <p class="info">
+                    Les dates sont entre 1986 et 2005.
+                </p>
+            </div>
+        </li>
 
-    <h1><strong>3.</strong> Requête pour avoir tout les jeux en fonction du directeur du jeu</h1>
-    <div>
-        <form action="actionnum3.php" method="POST">
-            <p>Le nom du directeur : <input type="text" name="directeur" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
-        <p>
-            Les directeur possible sont : Hervé Lange, Philippe Baumard, George Andrew Romero, Christophe Gomez,
-            Inconnu, Christophe Le Bouil, Yannick Cadin, Serge Payeur, Hervé Dudognon, Orou Mama, Olivier Marty, Thomas
-            Hauser, Laurent Lichnewsky, Therry Platon, Mevlut Dinc, Michel Ancel, Alexis Nolent, Fabrice Valay, Peggy
-            Desplats, Volker Wertich, Brian Upton, Alain Tascan, Anne McCaffrey's, Steve Fawkner, Ed del Castillo, Mark
-            Buchignani, Robyn Miller, Eric Viennot, Steve Fawker, Julien Barès, Kevin Guillemette, Masaki Ukyo, Anthony
-            E. Zuiker, Patrick Fortier, Jalil Amr, Annick Dumais, Christian Allen, and Miller, Shane Collier, Keiji
-            Inafune,
-        </p>
-    </div>
+        <li>
+            <h1>Requête pour avoir tout les jeux fait par un studio</h1>
+            <div>
+                <form action="actionnum5.php" method="POST">
+                    <p>Le nom du studio : <input type="text" name="studio" /> <input type="submit" class="button"
+                            value="Executer"></p>
+                </form>
+                <button>Information</button>
+                <p class="info">
+                        Les studion sont : Ubisoft, Blue Byte Software, Power Concept, Computer's Dream, Ordilogic Systems,
+                    Tiertex,
+                    NMS Software, Vivid Image, Ludi Media, Ubisoft Montpellier, Ubisoft Milan, Humongous, Human
+                    Entertainment,
+                    Game Arts, Criterion Games, Silmarils, Argonaut Games, Ubisoft Bucharest, Ubisoft Montréal, Planet
+                    Ineractive, Red Storm Entertainment, Smart Dog, Drago Entertainment, Landwarf, Playmobil
+                    Interactive,
+                    Ubisoft Paris, Ubisoft Shangaï, Ubisoft Annecy, Cyclone Studios, Sucker Punch Productions, RFX
+                    Interactive,
+                    Midas Interactive Entertainment, Westka Interactive, From Software, Kemco, Disney Interactive,
+                    Ubisoft
+                    Shanghai, Ubisoft Italy, Frontier Developments, Ubisoft Barcelone, Aqua pacific, Strategic Studies
+                    Group,
+                    Crave entertainment, Ubisoft Entertainment, Planet Interactive, Enlight Software, MASA Group, Fever
+                    Pitch
+                    Studios, Ubi Studios UK, In Utero, Presto Studios, Stormfront Studios, Ubisoft Montreuil, Red storm,
+                    DICE,
+                    SCE Japan Studio, Ubisoft Romania, Zonic Limited, Strategic Simulations Incorporation, Dragonstone
+                    Software,
+                    Rocket Studio, SkyBox Labs, Craxfish Interactive, Rebellion, Cyan World, Rage Software, Runecraft,
+                    SSG,
+                    Sting entertainment, 369 Interactive, Lexis Numérique, Eagle Dynamics, Wolfpack Studios, Stray
+                    Bullet Games,
+                    Infinite Interactive, Saber Interactive, Genki, Bergsala Lightweight, Treasure, Lexus Numérique, GSC
+                    Game
+                    World, Ubisoft Bucarest, Crytek, Maddox Games, Venom Games, MGM Interactive, Midway Studio, Ratbag
+                    Games,
+                    Frogwares, Longtail Studio, Ubisoft Casablanca, US Army, Secret Level, Gearbox Software, Powerhead
+                    Games,
+                    Darkworks, MTO, Cavia, Taito, Moss, Behaviour Interactive, Transmission Games, Phoenix Studio,
+                    Capcom,
+                    Cyberlore Studios, Digital Eclipse, The Collective, Tiwark, Three Rings.
 
-    <h1><strong>4.</strong> Requête pour avoir tout les jeux sortie avant ou après une date</h1>
-    <div>
-        <form action="actionnum4.php" method="POST">
-            <p>Date de sortie : avant <label class="switch"> <input type="checkbox"> <span class="slider round"></span>
-                </label> après<input type="number" name="date" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
-        <p>
-            Les dates sont entre 1986 et 2005.
-        </p>
-    </div>
+                </p>
+            </div>
+        </li>
 
-    <h1><strong>5.</strong> Requête pour avoir tout les jeux fait par un studio</h1>
-    <div>
-        <form action="actionnum5.php" method="POST">
-            <p>Le nom du studio : <input type="text" name="studio" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
-        <p>
-            Les studion sont : Ubisoft, Blue Byte Software, Power Concept, Computer's Dream, Ordilogic Systems, Tiertex,
-            NMS Software, Vivid Image, Ludi Media, Ubisoft Montpellier, Ubisoft Milan, Humongous, Human Entertainment,
-            Game Arts, Criterion Games, Silmarils, Argonaut Games, Ubisoft Bucharest, Ubisoft Montréal, Planet
-            Ineractive, Red Storm Entertainment, Smart Dog, Drago Entertainment, Landwarf, Playmobil Interactive,
-            Ubisoft Paris, Ubisoft Shangaï, Ubisoft Annecy, Cyclone Studios, Sucker Punch Productions, RFX Interactive,
-            Midas Interactive Entertainment, Westka Interactive, From Software, Kemco, Disney Interactive, Ubisoft
-            Shanghai, Ubisoft Italy, Frontier Developments, Ubisoft Barcelone, Aqua pacific, Strategic Studies Group,
-            Crave entertainment, Ubisoft Entertainment, Planet Interactive, Enlight Software, MASA Group, Fever Pitch
-            Studios, Ubi Studios UK, In Utero, Presto Studios, Stormfront Studios, Ubisoft Montreuil, Red storm, DICE,
-            SCE Japan Studio, Ubisoft Romania, Zonic Limited, Strategic Simulations Incorporation, Dragonstone Software,
-            Rocket Studio, SkyBox Labs, Craxfish Interactive, Rebellion, Cyan World, Rage Software, Runecraft, SSG,
-            Sting entertainment, 369 Interactive, Lexis Numérique, Eagle Dynamics, Wolfpack Studios, Stray Bullet Games,
-            Infinite Interactive, Saber Interactive, Genki, Bergsala Lightweight, Treasure, Lexus Numérique, GSC Game
-            World, Ubisoft Bucarest, Crytek, Maddox Games, Venom Games, MGM Interactive, Midway Studio, Ratbag Games,
-            Frogwares, Longtail Studio, Ubisoft Casablanca, US Army, Secret Level, Gearbox Software, Powerhead Games,
-            Darkworks, MTO, Cavia, Taito, Moss, Behaviour Interactive, Transmission Games, Phoenix Studio, Capcom,
-            Cyberlore Studios, Digital Eclipse, The Collective, Tiwark, Three Rings.
+        <li>
+            <h1>Requête pour avoir tout les jeux d'un genre, sortie avant ou après une date</h1>
+            <div>
+                <form action="actionnum6.php" method="POST">
+                    <p>Le genre : <input type="text" name="genre" /> Date de sortie : avant <label class="switch">
+                            <input type="checkbox"> <span class="slider round"></span>
+                        </label> après <input type="number" name="date" /> <input type="submit" class="button"
+                            value="Executer">
+                    </p>
+                </form>
+            </div>
+        </li>
 
-        </p>
-    </div>
+        <li>
+            <h1>Requête pour avoir tout les jeux d'un studo, sortie avant ou après une date</h1>
+            <div>
+                <form action="actionnum7.php" method="POST">
+                    <p>Le studo : <input type="text" name="studio" /> Date de sortie : avant <label class="switch">
+                            <input type="checkbox"> <span class="slider round"></span>
+                        </label> après<input type="number" name="date" /> </label><input type="submit" class="button"
+                            value="Executer"></p>
+                </form>
+            </div>
 
-    <h1><strong>6.</strong> Requête pour avoir tout les jeux d'un genre, sortie avant ou après une date</h1>
-    <div>
-        <form action="actionnum6.php" method="POST">
-            <p>Le genre : <input type="text" name="genre" /> Date de sortie : avant <label class="switch"> <input type="checkbox"> <span class="slider round"></span>
-                </label> après <input type="number" name="date" /> <input type="submit" class ="button" value="Executer"></p>
-        </form>
-    </div>
+        </li>
 
-    <h1><strong>7.</strong> Requête pour avoir tout les jeux d'un studo, sortie avant ou après une date</h1>
-    <div>
-        <form action="actionnum7.php" method="POST">
-            <p>Le studo : <input type="text" name="studio" /> Date de sortie : avant <label class="switch"> <input type="checkbox"> <span class="slider round"></span>
-                </label> après<input type="number" name="date" /> </label><input type="submit" class ="button" value="Executer"></p>
-        </form>
-    </div>
+        <script src = "javascript.js" > </script>
 
 
+    </ul>
+
+
+
+   
 
 </body>
 

@@ -185,8 +185,12 @@ SELECT Jeu.id, Jeu.titre_du_jeu, Studiojeu.nom_studio, annee_de_sortie FROM Jeu 
 --afficher tous les jeux d'actions a etre sortie apres 2001
 SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre = 'Action' AND annee_de_sortie >= '2001';
 
+--afficher tous les jeux d'actions a etre sortie avant 2001
+SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre = 'Action' AND annee_de_sortie <= '2001';
+
+
+--affiche les attributs des jeux qui on un ou plusieurs personnages
 SELECT Jeu.id,Jeu.titre_du_jeu,Jeu.annee_de_sortie,Personnagejeu.personnage_principal,Genrejeu.genre,Studiojeu.nom_studio,Supportjeu.support FROM Jeu JOIN Personnagejeu JOIN Genrejeu JOIN Studiojeu JOIN Supportjeu  ON Personnagejeu.id = Jeu.id && Jeu.id=Genrejeu.id && Jeu.id = Studiojeu.id && Jeu.id = Supportjeu.id;
 
-SELECT * FROM Jeu JOIN Studiojeu JOIN Genrejeu JOIN Personnagejeu  ON  Jeu.id = Studiojeu.id && Jeu.id = Genrejeu.id && Jeu.id = Personnagejeu.id;
 
 

@@ -72,29 +72,62 @@ h1{
     font-style: normal;
     padding-top: 10px;
     padding-bottom: 10px;
+    
     text-decoration: underline;
     width: 90%;
 }
+h1:hover{
+  cursor: pointer;
+}
+
 div{
     width: 90%;
     font-size: medium;
     text-align: justify;
-    display: flex-box;
+    display: none;
     
 }
 
 p{
 font-size: large;
 padding: large large large large;
+padding-left: 10px;
+/*display: none;*/
 }
 
 .button {
-    background-color: rgb(156, 84, 224); 
-    border: none;
-    color: white;
-    padding: larger larger larger larger;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: large;
+  cursor: pointer;
+  background-color: rgb(156, 84, 224); 
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: larger larger larger larger;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
   }
+
+ul{
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+.info{
+  display: none;
+}
+
+button{
+  cursor: pointer;
+  background-color: rgb(73, 70, 224); 
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+
+}
+
+  
