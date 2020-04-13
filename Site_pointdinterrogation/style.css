@@ -62,26 +62,30 @@ input:checked + .slider:before {
   border-radius: 50%;
 } 
 
-strong{
-    font-size: 200%;
-    
-
+body{
+  background-color: rgb(17, 17, 17);
 }
+
 h1{
     font-size: 200%;
     font-style: normal;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
+    margin: 10px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(23, 21, 48);
     text-decoration: underline;
-    width: 90%;
+    border-radius: 13px ;
+    color: rgb(187, 196, 196);
+    display: flex;
+    width: fit-content;
+    
+
 }
 h1:hover{
   cursor: pointer;
 }
 
 div{
-    width: 90%;
+
     font-size: medium;
     text-align: justify;
     display: none;
@@ -92,7 +96,10 @@ p{
 font-size: large;
 padding: large large large large;
 padding-left: 10px;
-/*display: none;*/
+margin-left: 1%;
+color: rgb(164, 172, 172);
+
+
 }
 
 .button {
@@ -100,7 +107,7 @@ padding-left: 10px;
   background-color: rgb(156, 84, 224); 
   border: none;
   border-radius: 3px;
-  color: white;
+  color: rgb(164, 172, 172);
   padding: larger larger larger larger;
   text-align: center;
   text-decoration: none;
@@ -115,6 +122,10 @@ ul{
 
 .info{
   display: none;
+  margin-left: 3%;
+  width: 90%;
+  word-wrap: normal;
+  background-color: rgb(92, 113, 146);
 }
 
 button{
@@ -122,12 +133,15 @@ button{
   background-color: rgb(73, 70, 224); 
   border: none;
   border-radius: 3px;
-  color: white;
+  color: rgb(164, 172, 172);
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: large;
+  margin-left: 2%;
 
 }
 
-  
+li div p ul{
+  width: max-content;
+}
