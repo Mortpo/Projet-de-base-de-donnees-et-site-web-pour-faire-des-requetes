@@ -203,16 +203,6 @@ ID jeu PK FK;Support PK FK
 66;Windows
 66;Game boy color
 67;Windows
-68;DOS
-68;Windows
-68;PS1
-69;Nintendo 64
-69;Dreamcast
-69;PS2
-69;PS1
-69;Game boy color
-69;Nintendo DS
-69;iOS
 70;Windows
 71;Windows
 71;PS1
@@ -310,10 +300,6 @@ ID jeu PK FK;Support PK FK
 102;GameCube
 102;Xbox 360
 102;PS3
-103;Windows
-103;DOS
-103;Xbox 360
-103;PSP
 104;Gamecube
 105;Windows
 105;Xbox

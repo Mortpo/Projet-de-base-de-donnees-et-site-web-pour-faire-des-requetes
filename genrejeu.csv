@@ -127,9 +127,6 @@ ID jeu PK FK;Genre du jeu PK FK
 66;Aventure
 67;Course
 67;Simulation
-68;Plates-formes
-68;Educatif
-69;Plates-formes
 70;Strategie
 71;Aventure
 71;Equitation
@@ -186,7 +183,6 @@ ID jeu PK FK;Genre du jeu PK FK
 102;Aventure
 102;Infiltration
 102;Course
-103;Echecs
 104;RPG
 105;Aventure
 106;Aventure

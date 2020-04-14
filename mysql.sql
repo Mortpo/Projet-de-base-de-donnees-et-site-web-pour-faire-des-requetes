@@ -190,7 +190,14 @@ SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Genrejeu ON
 
 
 --affiche les attributs des jeux qui on un ou plusieurs personnages
-SELECT Jeu.id,Jeu.titre_du_jeu,Jeu.annee_de_sortie,Personnagejeu.personnage_principal,Genrejeu.genre,Studiojeu.nom_studio,Supportjeu.support FROM Jeu JOIN Personnagejeu JOIN Genrejeu JOIN Studiojeu JOIN Supportjeu  ON Personnagejeu.id = Jeu.id && Jeu.id=Genrejeu.id && Jeu.id = Studiojeu.id && Jeu.id = Supportjeu.id;
+/*SELECT Jeu.id,Jeu.titre_du_jeu,Jeu.annee_de_sortie,Personnagejeu.personnage_principal,Genrejeu.genre,Studiojeu.nom_studio,Supportjeu.support FROM Jeu JOIN Personnagejeu JOIN Genrejeu JOIN Studiojeu JOIN Supportjeu  ON Personnagejeu.id = Jeu.id && Jeu.id=Genrejeu.id && Jeu.id = Studiojeu.id && Jeu.id = Supportjeu.id;*/
 
+--afficher les jeux ayant pour support la PS2
+SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.annee_de_sortie, Supportjeu.support FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = 'PS2';
 
+--nombre total de jeux
+SELECT COUNT(*) FROM Jeu;
+
+--nombre de jeux sortie sur PS2
+SELECT COUNT(*) FROM Supportjeu WHERE support = 'PS2';
 
