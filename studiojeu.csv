@@ -80,134 +80,130 @@ ID jeu PK FK;Studio PK FK
 65;Frontier Developments
 66;Ubisoft Montréal
 67;Ubisoft Barcelone
-69;Ubisoft Milan
-69;Ubisoft Annecy
-69;Ubisoft Paris
-69;Ubisoft Shanghai
-70;Strategic Studies Group
-71;Midas Interactive Entertainment
-72;Ubisoft Montréal
-72;Ubisoft Shanghai
-73;Crave entertainment
-73;Ubisoft Entertainment
-74;Planet Interactive
-75;Enlight Software
-76;MASA Group
-77;Fever Pitch Studios
-78;Ubi Studios UK
-79;In Utero
-80;Ubisoft
-81;Presto Studios
-82;Stormfront Studios
-83;Ubisoft Montreuil
-83;Ubisoft Milan
-84;Blue Byte Software
-85;Red storm
-86;DICE
-87;SCE Japan Studio
-88;Ubisoft Romania
-88;Zonic Limited
-89;Strategic Simulations Incorporation
-89;Ubisoft
-90;Ubisoft Montréal
-91;Dragonstone Software
-92;Game Arts
-92;Rocket Studio
-92;SkyBox Labs
-93;Red Storm Entertainment
-93;Craxfish Interactive
-94;Ubisoft
-95;Rebellion
-96;Cyan World
-97;Rage Software
-98;Runecraft
+68;Strategic Studies Group
+69;Midas Interactive Entertainment
+70;Ubisoft Montréal
+70;Ubisoft Shanghai
+71;Crave entertainment
+71;Ubisoft Entertainment
+72;Planet Interactive
+73;Enlight Software
+74;MASA Group
+75;Fever Pitch Studios
+76;Ubi Studios UK
+77;In Utero
+78;Ubisoft
+79;Presto Studios
+80;Stormfront Studios
+81;Ubisoft Montreuil
+81;Ubisoft Milan
+82;Blue Byte Software
+83;Red storm
+84;DICE
+85;SCE Japan Studio
+86;Ubisoft Romania
+86;Zonic Limited
+87;Strategic Simulations Incorporation
+87;Ubisoft
+88;Ubisoft Montréal
+89;Dragonstone Software
+90;Game Arts
+90;Rocket Studio
+90;SkyBox Labs
+91;Red Storm Entertainment
+91;Craxfish Interactive
+92;Ubisoft
+93;Rebellion
+94;Cyan World
+95;Rage Software
+96;Runecraft
+97;Ubisoft Montréal
+98;SSG
 99;Ubisoft Montréal
-100;SSG
-101;Ubisoft Montréal
-102;Ubisoft Montpellier
-102;Ubisoft Milan
-102;Ubisoft Shanghai
-104;Sting entertainment
-105;369 Interactive
-106;Lexis Numérique
-107;Lexis Numérique
-108;Eagle Dynamics
-109;Ubisoft Paris
-109;Ubisoft Shanghai
-110;Wolfpack Studios
-110;Stray Bullet Games
-111;Infinite Interactive
-112;Saber Interactive
-113;Ubisoft Paris
-114;Ubisoft Barcelone
-115;Ubisoft Montréal
-115;Ubisoft
-116;Genki
-116;Bergsala Lightweight
-117;Treasure
-118;Lexus Numérique
-119;GSC Game World
-120;SCE Japan Studio
-121;Ubisoft
-122;Ubisoft Bucarest
-123;Crytek
-124;Lexis Numérique
-125;369 Interactive
-126;Ubisoft Montréal
-127;Maddox Games
-128;Ubisoft Montréal
-129;Venom Games
-129;MGM Interactive
-130;Ubisoft
-131;Midway Studio
-131;Ratbag Games
-132;Frogwares
-133;Longtail Studio
-134;Ubisoft Montréal
-135;Red Storm Entertainment
-136;Red Storm Entertainment
-136;Ubisoft Montréal
-136;Ubisoft Milan
-136;Ubisoft Casablanca
-137;Ubisoft Shangaï
-137;Ubisoft Milan
-137;Ubisoft Annecy
-138;Cyan World
-139;Ubisoft Paris
-140;Lexis Numérique
-141;US Army
-141;Secret Level
-142;Gearbox Software
-143;Gearbox Software
-144;Powerhead Games
-145;Darkworks
-146;MTO
-147;Cavia
-148;Taito
-148;Moss
-149;Ubisoft Montréal
-150;Behaviour Interactive
-151;Transmission Games
-152;Ubisoft
-153;Ubisoft Montpellier
-153;Ubisoft Milan
-153;Ubisoft Casablanca
-153;Phoenix Studio
-154;369 Interactive
-154;Ubisoft
-155;Cyan World
-156;Game Arts
-157;Capcom
-158;Cyberlore Studios
-159;Ubisoft Casablanca
-159;Ubisoft Montréal
-160;Ubisoft Montréal
-161;Digital Eclipse
-162;Ubisoft Romania
-163;The Collective
-164;Blue Byte Software
-165;Red Storm Entertainment
-166;Ubisoft Montréal
-167;Tiwark
-168;Powerhead Games
-169;Three Rings
+100;Ubisoft Montpellier
+100;Ubisoft Milan
+100;Ubisoft Shanghai
+101;Sting entertainment
+102;369 Interactive
+103;Lexis Numérique
+104;Lexis Numérique
+105;Eagle Dynamics
+106;Ubisoft Paris
+106;Ubisoft Shanghai
+107;Wolfpack Studios
+107;Stray Bullet Games
+108;Infinite Interactive
+109;Saber Interactive
+110;Ubisoft Paris
+111;Ubisoft Barcelone
+112;Ubisoft Montréal
+112;Ubisoft
+113;Genki
+113;Bergsala Lightweight
+114;Treasure
+115;Lexus Numérique
+116;GSC Game World
+117;SCE Japan Studio
+118;Ubisoft
+119;Ubisoft Bucarest
+120;Crytek
+121;Lexis Numérique
+122;369 Interactive
+123;Ubisoft Montréal
+124;Maddox Games
+125;Ubisoft Montréal
+126;Venom Games
+126;MGM Interactive
+127;Ubisoft
+128;Midway Studio
+128;Ratbag Games
+129;Frogwares
+130;Longtail Studio
+131;Ubisoft Montréal
+132;Red Storm Entertainment
+133;Red Storm Entertainment
+133;Ubisoft Montréal
+133;Ubisoft Milan
+133;Ubisoft Casablanca
+134;Ubisoft Shangaï
+134;Ubisoft Milan
+134;Ubisoft Annecy
+135;Cyan World
+136;Ubisoft Paris
+137;Lexis Numérique
+138;US Army
+138;Secret Level
+139;Gearbox Software
+140;Gearbox Software
+141;Powerhead Games
+142;Darkworks
+143;MTO
+144;Cavia
+145;Taito
+145;Moss
+146;Ubisoft Montréal
+147;Behaviour Interactive
+148;Transmission Games
+149;Ubisoft
+150;Ubisoft Montpellier
+150;Ubisoft Milan
+150;Ubisoft Casablanca
+150;Phoenix Studio
+151;369 Interactive
+151;Ubisoft
+152;Cyan World
+153;Game Arts
+154;Capcom
+155;Cyberlore Studios
+156;Ubisoft Casablanca
+156;Ubisoft Montréal
+157;Ubisoft Montréal
+158;Digital Eclipse
+159;Ubisoft Romania
+160;The Collective
+161;Blue Byte Software
+162;Red Storm Entertainment
+163;Ubisoft Montréal
+164;Tiwark
+165;Powerhead Games
+166;Three Rings

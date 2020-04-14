@@ -38,57 +38,57 @@ ID jeu PK FK;Personnage principal PK FK
 62;Batman
 63;Donald duck
 66;Laura
-72;Batman
-74;Blanche-Neige
-76;ICP
-79;Cyprien
-83;Rayman
-86;Alexandra Lerdermann
-87;Hikaru
-92;Ryudo Geohound
-94;Largo Winch
-95;Largo Winch
-97;Rocky
-99;Sam Fisher
-101;Batman
-102;Jade
-105;D.B. Russel
-106;Jack Lorski
-107;Alexandra ledermann
-109;Rayman
-113;XIII
-118;Mademoiselle de Chardigny
-119;Alexandre
-120;Spike
-120;Natalie
-120;Casi
-120;Professor
-120;Helga
-123;Jack Carver
-124;Jack Lorski
-128;Dastan
-132;Sherlock Holmes
-133;Becky
-133;Brett
-134;Luke Skywalker
-136;Ding Chavez
-137;Sam Fisher
-140;Jade
-142;Sergent Matt Baker
-143;Sergent Joe Hartsock
-145;Tom Hansen
-147;Nowe
-149;Jack Carver
-153;Jack
-156;Jian Campbell
-157;Samanosuke Akechi
-157;Jacques Blanc
-158;Hugh Hefner
-159;Dastan
-160;Dastan
-161;Rayman
-163;Anakin Skywalker
-163;Obi-Wan Kenobi
-165;Ding Chavez
-166;Sam Fisher
-167;Tork
+70;Batman
+72;Blanche-Neige
+74;ICP
+77;Cyprien
+81;Rayman
+84;Alexandra Lerdermann
+85;Hikaru
+90;Ryudo Geohound
+92;Largo Winch
+93;Largo Winch
+95;Rocky
+97;Sam Fisher
+99;Batman
+100;Jade
+102;D.B. Russel
+103;Jack Lorski
+104;Alexandra ledermann
+106;Rayman
+110;XIII
+115;Mademoiselle de Chardigny
+116;Alexandre
+117;Spike
+117;Natalie
+117;Casi
+117;Professor
+117;Helga
+120;Jack Carver
+121;Jack Lorski
+125;Dastan
+129;Sherlock Holmes
+130;Becky
+130;Brett
+131;Luke Skywalker
+133;Ding Chavez
+134;Sam Fisher
+137;Jade
+139;Sergent Matt Baker
+140;Sergent Joe Hartsock
+142;Tom Hansen
+144;Nowe
+146;Jack Carver
+150;Jack
+153;Jian Campbell
+154;Samanosuke Akechi
+154;Jacques Blanc
+155;Hugh Hefner
+156;Dastan
+157;Dastan
+158;Rayman
+160;Anakin Skywalker
+160;Obi-Wan Kenobi
+162;Ding Chavez
+163;Sam Fisher
+164;Tork
