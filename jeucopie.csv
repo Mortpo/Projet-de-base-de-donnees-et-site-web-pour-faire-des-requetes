@@ -1,0 +1,167 @@
+ID jeu PK;Titre du jeu;Année de sortie;Directeur du jeu;Nom franchise
+1;Fer et Flamme;1986;Hervé Lange;Fer et Flamme
+2;Masque;1986;Philippe Baumard;Masque
+3;Zombi;1986;George Andrew Romero;Zombi
+4;Asphalt;1987;Christophe Gomez;Asphalt
+5;Final Command;1987;Inconnu;Final Command
+6;Gabrielle;1987;Inconnu;Gabrielle
+7;Hurlements;1987;Inconnu;Hurlements
+8;Inertie;1987;Christophe Le Bouil;Inertie
+9;Le Maître des âmes;1987;inconnu;Le Maître des âmes
+10;Le Nécromancien;1987;inconnu;Le Nécromancien
+11;Manhattan 95 Light;1987;Yannick Cadin;Manhattan 95 Light
+12;M'enfin;1987;inconnu;Gaston
+13;Peur sur Amityville;1987;Serge Payeur;Peur sur Amityville
+14;Skateball;1988;Hervé Dudognon;Skateball
+15;Great Courts;1989;Inconnu;Great Courts
+16;Iron Lord;1989;Orou Mama;Iron Lord
+17;Night Hunter;1989;Olivier Marty;Night Hunter
+18;Puffy's Saga;1989;Inconnu;Puffy's Saga
+19;TwinWorld: Land of Vision;1989;Thomas Hauser;TwinWorld
+20;Back to the Golden Age;1990;Laurent Lichnewsky;Back to the Golden Age
+21;B.A.T.;1989;Hervé Lange;B.A.T.
+22;RanX: The Video Game;1990;Therry Platon;RanX: The Video Game
+23;Sauvez Yurk;1990;Inconnu;Sauvez Yurk
+24;Unreal;1990;Inconnu;Unreal
+25;Great Courts 2;1991;Inconnu;Great Courts
+26;Starush;1992;Inconnu;Starush
+27;B.A.T. II: The Koshan Conspiracy;1992;Inconnu;B.A.T.
+28;Indiana Jones and the Last Crusade: The Action Game;1989;Inconnu;Indiana Jones
+29;Street Racer;1994;Mevlut Dinc;Street Racer
+30;Action Soccer;1995;Inconnu;Action Soccer
+31;Rayman;1995;Michel Ancel;Rayman
+32;Rayman Junior;1996;Inconnu;Rayman
+33;Marine Malice 2 : Le Mystère de l'école hantée;1996;Inconnu;Marine Malice
+34;F1 Pole Position 64;1997;Inconnu;F1 Pole Position 64
+35;Grandia;1997;Inconnu;Grandia
+36;Les Neuf Destins de Valdo;1997;Alexis Nolent;Les Neuf Destins de Valdo
+37;POD: Planet of Death;1997;Fabrice Valay;POD
+38;Sub Culture;1997;Inconnu;Sub Culture
+39;Asgan: The Dragon Slayer;1998;Inconnu;Asgan: The Dragon Slayer
+40;Buck Bumble;1998;Inconnu;Buck Bumble
+41;F1 Racing Simulation;1997;Peggy Desplats;F1 Racing Simulation
+42;Laura et le Secret du diamant;1998;Inconnu;Laura et le Secret du diamant
+43;Redline Racer;1998;Inconnu;Redline Racer
+44;S.C.A.R.S.;1998;Inconnu;S.C.A.R.S.
+45;The Settlers III;1998;Volker Wertich;The Settlers
+46;Tom Clancy's Rainbow Six;1998;Brian Upton;Tom Clancy Rainbow Six
+47;Yannick Noah All Star Tennis '99;1998;Inconnu;Yannick Noah All Star Tennis '99
+48;Hell-Copter;1999;Inconnu;Hell-Copter
+49;Hexcite: The Sapes of Victory;1999;Inconnu;Hexcite
+50;Hype: The Time Quest;1999;Alain Tascan;Hype: The Time Quest
+51;Racing Simulation : Monaco Grand Prix;1999;Inconnu;Racing Simulation
+52;Rayman 2: The Great Escape;1999;Michel Ancel;Rayman
+53;Requiem: Avenging Angel;1999;Inconnu;Requiem: Avenging Angel
+54;Rocket: Robot on Wheels;1999;Inconnu;Rocket: Robot on Wheels
+55;Speed Devils;1999;Inconnu;Speed Devils
+56;Tom Clancy's Rainbow Six: Rogue Spear;1999;Inconnu;Tom Clancy Rainbow Six
+57;Tonic Trouble;1999;Inconnu;Tonic Trouble
+58;Alexandra Ledermann : Équitation Passion;2000;Inconnu;Alexandra Ledermann
+59;Anne McCaffrey's Freedom: First Resistance;2000;Anne McCaffrey's;Anne McCaffrey's Freedom
+60;Arcatera : La confrérie des Ombres;2000;Inconnu;Arcatera : La confrérie des Ombres
+61;Armored Core 2;2000;Inconnu;Armored Core
+62;Batman of the Future: Return of the Joker;2000;Inconnu;Batman
+63;Donald Duck Couak Attack;2000;Inconnu;Donald Duck Couak Attack
+64;F1 Racing Championship;2000;Inconnu;F1 Racing Championship
+65;Infestation;2000;Inconnu;Infestation
+66;Playmobil : Laura;2000;Inconnu;Playmobile
+67;Pro Rally 2001;2000;Inconnu;Pro Rally
+70;Warlords Battlecry ;2000;Steve Fawkner;Warlords
+71;Alexandra Ledermann 2 : Équitation Compétition;2001;Inconnu;Alexandra Ledermann
+72;Batman : Vengeance;2001;Inconnu;Batman
+73;Battle Realms;2001;Ed del Castillo;Battle Realms
+74;Blanche-Neige et les Sept Nains;2001;Inconnu;Blanche-Neige et les Sept Nains
+75;Trevor Chan's Capitalism II;2001;Inconnu;Trevor Chan's Capitalism II
+76;Conflict Zone;2001;Inconnu;Conflict Zone
+77;Conquest: Frontier Wars;2001;Inconnu;Conquest: Frontier Wars
+78;Dragonriders: Chronicles of Pern;2001;Inconnu;Dragonriders: Chronicles of Pern
+79;Evil Twin: Cyprien's Chronicles;2001;Inconnu;Evil Twin: Cyprien's Chronicles
+80;IL-2-Sturmovik;2001;Inconnu;IL-2-Sturmovik
+81;Myst III: Exile;2001;Inconnu;Myst
+82;Pool of Radiance: Ruins of Myth Drannor;2001;Mark Buchignani;Pool of Radiance: Ruins of Myth Drannor
+83;Rayman M;2001;Michel Ancel;Rayman M
+84;The Settlers IV ;2001;Inconnu;The Settlers IV 
+85;Tom Clancy's Ghost Recon;2001;Brian Upton;Tom Clancy Ghost Recon
+86;Alexandra Ledermann 3: Equitation Aventure;2000;Inconnu;Alexandra Ledermann
+87;Ape Escape 2;2001;Inconnu;Ape Escape
+88;Chessmaster;2002;Inconnu;Chessmaster
+89;Destroyer Command;2002;Inconnu;Destroyer Command
+90;Donald Duck: Qui est PK ?;2002;Inconnu;Donald Duck: Qui est PK ?
+91;Dragon's Lair 3D: Return to the Lair;2002;Inconnu;Dragon's Lair
+92;Grandia II;2000;Inconnu;Grandia
+93;La Somme de toutes les peurs;2002;Inconnu;La Somme de toutes les peurs
+94;Largo Winch: Aller simple pour les Balkans;2002;Inconnu;Largo Winch
+95;Largo Winch: Commando Sar;2002;Inconnu;Largo Winch
+96;Riven;2002;Robyn Miller;Riven
+97;Rocky;2002;Inconnu;Rocky
+98;Scrabble : Edition 2003;2002;Inconnu;Scrabble
+99;Tom Clancy's Splinter Cell;2002;Inconnu;Tom Clancy Splinter Cell
+100;Warlords Battlecry II;2002;Inconnu;Warlords
+101;Batman: Rise of Sin Tzu;2003;Inconnu;Batman
+102;Beyond Good and Evil;2003;Michel Ancel;Beyond Good and Evil
+104;Evolution Worlds;2003;Inconnu;Evolution Worlds
+105;Les Experts;2003;Inconnu;Les Experts
+106;In memorian;2003;Eric Viennot;In memoriam
+107;Alexandra Ledermann 4 : Aventures aux Haras ;2003;Inconnu;Alexandra ledermann
+108;Lock On;2003;Inconnu;Lock On
+109;Rayman 3: Hoodlum Havoc;2003;Inconnu;Rayman
+110;Shadowbane;2003;Inconnu;Shadowbane
+111;Warlords IV: Heroes of Etheria;2003;Steve Fawker;Warlords
+112;Wil Rock;2003;Inconnu;Will Rock
+113;XIII;2003;Julien Barès;XIII
+114;Monster 4X4: Masters of Metal;2003;Inconnu;Monster 4X4
+115;Prince of Persia: Les Sables du temps;2003;Kevin Guillemette;Prince of Persia
+116;Tigre et Dragon;2003;Inconnu;Tigre et Dragon
+117; Advance Guardian Heroes;2004;Masaki Ukyo;Guardian Heroes
+118;Alexandra Ledermann 5: L'Héritage du haras;2004;Inconnu;Alexandra Ledermann
+119;Alexandre;2004;Inconnu;Alexandre
+120;Ape Escape: Pumped and Primed;2004;Inconnu;Ape Escape
+121;Asphalt: Urban GT;2004;Inconnu;Asphalt
+122;Chessmaster: 10ème édition;2004;Inconnu;Chessmaster
+123;Far Cry;2004;Inconnu;Far Cry
+124;In memorian: La Treizième Victime;2004;Eric Viennot;In memorian
+125;Les Experts: Meurtres à Las Vegas;2004;Anthony E. Zuiker;Les Experts
+126;Myst IV: Revelation;2004;Patrick Fortier;Myst
+127;Pacific Fighters;2004;Inconnu;Pacific Fighters
+128;Prince of Persia: L'Ame du guerrier;2004;Kevin Guillemette;Prince of Persia
+129;Rocky Legends;2004;Inconnu;Rocky
+130;Scrabble : Edition 2005;2004;Inconnu;Scrabble
+131;Shérif fais-moi peur : le Retour de Générale Lee;2004;Inconnu;Shérif fais moi-peur
+132;Sherlock Holmes : La Boucle D'argent;2004;Jalil Amr;Sherlock Holmes
+133;Sprung;2004;Inconnu;Sprung
+134;Star Wars Trilogy : Apprentice of the Force;2004;Annick Dumais;Star Wars
+135;Tom Clancy's Ghost Recon 2;2004;Christian Allen;Tom Clancy Ghost Recon
+136;Tom Clancy's Rainbow Six 3 : Raven Shield;2003;Inconnu;Tom Clancy Rainbow Six
+137;Tom Clancy's Splinter Cell : Pandora Tomorrow;2004;Inconnu;Tom Clancy Splinter Cell
+138;Uru: Ages Beyond Myst;2003;Rand Miller;Uru
+139;187: Ride or Die;2005;Inconnu;187: Ride or Die
+140;Alexandra Ledermann 6: L'école des Champions;2005;Inconnu;Alexandra Ledermann
+141;America's Army;2002;Inconnu;America's Army
+142;Brothers in Arms: Road to Hill 30;2005;Inconnu;Brothers in Arms
+143;Brothers in Arms: Earned in Blood;2005;Inconnu;Brothers in Arms
+144;Catz;2005;Inconnu;Petz
+145;Cold Fear;2005;Inconnu;Cold Fear
+146;Dogz;2005;Inconnu;Petz
+147;Drakengard 2 ;2003;Inconnu;Drakengard 
+148;Exit;2005;Inconnu;Exit
+149;Far Cry Instincts;2005;Inconnu;Far Cry
+150;Flow: Urban Dance Uprising;2005;Inconnu;Flow
+151;Heroes of the Pacific;2005;Shane Collier;Heroes of the Pacific
+152;Jeune Styliste 3: Star;2005;Inconnu;Jeune Styliste
+153;King Kong;2005;Michel Ancel;King Kong
+154;Les Experts: Miami;2004;Inconnu;Les Experts
+155;Myst V : End of Ages;2005;Rand Miller;Myst
+156;Lunar : Dragon Song;2005;Inconnu;Lunar
+157;Onimusha 3 : Demon Siege;2005;Keiji Inafune;Onimusha
+158;Playboy : The Mansion;2005;Inconnu;Playboy
+159;Prince of Persia: Les Deux Royaumes;2005;Kevin Guillemette;Prince of Persia
+160;Prince of Persia: Révélations;2005;Kevin Guillemette;Prince of Persia
+161;Rayman: La Revanche es Hoodlums;2005;Inconnu;Rayman
+162;Silent Hunter III;2005;Inconnu;Silent Hunter 
+163;Star Wars Episode III: La Revanche Des Sith;2005;Inconnu;Star Wars
+164;The Settlers V: L'Héritage Des Rois;2005;Inconnu;The Settlers
+165;Tom Clancy's Rainbow Six: Lockdown;2005;Inconnu;Tom Clancy Rainbow Six
+166;Tom Clancy's Splinter Cell: Chaos Theory;2005;Inconnu;Tom Clancy Splinter Cell
+167;Tork: Prehistoric Punk;2005;Inconnu;Tork
+168;Trollz: Hair Affair;2005;Inconnu;Trollz
+169;Yohoho! Puzzle Pirates;2005;Inconnu;Yohoho! Puzzle Pirates

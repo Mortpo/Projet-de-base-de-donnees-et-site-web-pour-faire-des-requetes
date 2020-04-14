@@ -127,193 +127,189 @@ ID jeu PK FK;Genre du jeu PK FK
 66;Aventure
 67;Course
 67;Simulation
-68;Plates-formes
-68;Educatif
-69;Plates-formes
-70;Strategie
-71;Aventure
-71;Equitation
-71;Sport
+68;Strategie
+69;Aventure
+69;Equitation
+69;Sport
+70;Action
+70;Plates-formes
+71;Stratégie en temps réel
 72;Action
-72;Plates-formes
-73;Stratégie en temps réel
-74;Action
-75;Gestion
-76;Stratégie en temps réel
-77;Stratégie en temps réel
-78;RPG
-78;Aventure
+73;Gestion
+74;Stratégie en temps réel
+75;Stratégie en temps réel
+76;RPG
+76;Aventure
+77;Aventure
+77;Plates-formes
+77;Action
+78;Combat Aérien
 79;Aventure
-79;Plates-formes
-79;Action
-80;Combat Aérien
-81;Aventure
-82;RPG
-83;Party game
-84;Gestion
-84;Stratégie en temps réel
-85;Tir
-85;Tactique
-86;Aventure
-86;Sport
-87;Plateformes
-87;Plates-formes
-88;Echecs
-89;Simulation
-89;Multijoueur
-90;Plateformes
-90;Plates-formes
-91;Action
-91;Aventure
-92;RPG
-93;Tir
-93;Tactique
+80;RPG
+81;Party game
+82;Gestion
+82;Stratégie en temps réel
+83;Tir
+83;Tactique
+84;Aventure
+84;Sport
+85;Plateformes
+85;Plates-formes
+86;Echecs
+87;Simulation
+87;Multijoueur
+88;Plateformes
+88;Plates-formes
+89;Action
+89;Aventure
+90;RPG
+91;Tir
+91;Tactique
+92;Aventure
+92;Point and Click
+93;Action
+93;Aventure
 94;Aventure
 94;Point and Click
-95;Action
-95;Aventure
-96;Aventure
-96;Point and Click
-96;Myst-like
-97;Boxe
-98;Scrabble
-99;Infiltration
-99;Action
-99;TPS
-100;Stratégie tour par tour
-100;Multijoueur
-101;Beat them all
+94;Myst-like
+95;Boxe
+96;Scrabble
+97;Infiltration
+97;Action
+97;TPS
+98;Stratégie tour par tour
+98;Multijoueur
+99;Beat them all
+100;Aventure
+100;Infiltration
+100;Course
+101;RPG
 102;Aventure
-102;Infiltration
-102;Course
-103;Echecs
-104;RPG
-105;Aventure
-106;Aventure
-106;Investigation
-107;Aventure
-108;Avion
-109;Plateformes
-109;Plates-formes
+103;Aventure
+103;Investigation
+104;Aventure
+105;Avion
+106;Plateformes
+106;Plates-formes
+107;Multijoueur
+107;MMORPG
+108;Multijoueur
+108;Stratégie tour par tour
+108;Guerre
+109;Multijoueur
+109;FPS
+110;FPS
 110;Multijoueur
-110;MMORPG
-111;Multijoueur
-111;Stratégie tour par tour
-111;Guerre
-112;Multijoueur
-112;FPS
-113;FPS
-113;Multijoueur
-114;Course
-115;Action
-115;Plates-formes
-115;Plateformes
-116;Action
-116;Aventure
-117;Beat them all
+111;Course
+112;Action
+112;Plates-formes
+112;Plateformes
+113;Action
+113;Aventure
+114;Beat them all
+114;Multijoueur
+115;Multijoueur
+115;Aventure
+115;Sport
+116;Multijoueur
+116;Stratégie en temps réel
+117;Party game
 117;Multijoueur
+118;Course
 118;Multijoueur
-118;Aventure
-118;Sport
-119;Multijoueur
-119;Stratégie en temps réel
-120;Party game
+119;Echecs
+120;FPS
 120;Multijoueur
-121;Course
-121;Multijoueur
-122;Echecs
-123;FPS
-123;Multijoueur
-124;Aventure
-125;Aventure
-125;Investigation
-126;Aventure
-127;Avion
-127;Multijoueur
+121;Aventure
+122;Aventure
+122;Investigation
+123;Aventure
+124;Avion
+124;Multijoueur
+125;Action
+125;Plateformes
+125;Plates-formes
+126;Boxe
+126;Multijoueur
+127;Scrabble
+127;Réflexion
 128;Action
-128;Plateformes
-128;Plates-formes
-129;Boxe
-129;Multijoueur
-130;Scrabble
-130;Réflexion
-131;Action
-131;Course
-131;Multijoueur
-132;Aventure
-132;Point and Click
-133;Aventure
-133;Dating Simulation
-134;Plateformes
-134;Plates-formes
-135;Tir
-135;Tactique
-136;FPS
-136;Tactique
-137;Infiltration
+128;Course
+128;Multijoueur
+129;Aventure
+129;Point and Click
+130;Aventure
+130;Dating Simulation
+131;Plateformes
+131;Plates-formes
+132;Tir
+132;Tactique
+133;FPS
+133;Tactique
+134;Infiltration
+134;Multijoueur
+135;Aventure
+135;Multijoueur
+136;Course
+136;Multijoueur
+137;Aventure
+137;Sport
 137;Multijoueur
-138;Aventure
+138;FPS
+138;Tactique
 138;Multijoueur
-139;Course
+139;FPS
 139;Multijoueur
-140;Aventure
-140;Sport
-140;Multijoueur
-141;FPS
-141;Tactique
-141;Multijoueur
-142;FPS
-142;Multijoueur
-143;FPS
-144;Gestion
-144;Animaux
-145;Action
-145;Aventure
-145;Survie
-145;Horreur
-146;Gestion
-146;Animaux
-147;Beat them all
-148;Réflexion
-149;FPS
-149;Multijoueur
-150;Sport
-150;2 Joueurs
-151;Avion
-151;Combat Aérien
-152;Stylisme
-153;Action
-153;Aventure
+140;FPS
+141;Gestion
+141;Animaux
+142;Action
+142;Aventure
+142;Survie
+142;Horreur
+143;Gestion
+143;Animaux
+144;Beat them all
+145;Réflexion
+146;FPS
+146;Multijoueur
+147;Sport
+147;2 Joueurs
+148;Avion
+148;Combat Aérien
+149;Stylisme
+150;Action
+150;Aventure
+151;Aventure
+152;Aventure
+153;RPG
+154;Action
 154;Aventure
-155;Aventure
-156;RPG
+154;Beat them all
+155;Simulation
+155;Economique
+156;Action
+156;Plates-formes
+156;Plateformes
+157;Plateformes
 157;Action
-157;Aventure
-157;Beat them all
-158;Simulation
-158;Economique
-159;Action
-159;Plates-formes
-159;Plateformes
-160;Plateformes
+157;Plates-formes
+158;Plateformes
+158;Plates-formes
+159;Simulation
+159;Sous-marin
+160;2 Joueurs
 160;Action
-160;Plates-formes
-161;Plateformes
-161;Plates-formes
-162;Simulation
-162;Sous-marin
-163;2 Joueurs
-163;Action
-163;Aventure
-164;Gestion
-164;Stratégie en temps réel
-164;Multijoueur
-165;FPS
-165;Tactique
-166;Infiltration
-166;Multijoueur
-167;Plates-formes
-167;Plateformes
-168;Action
-168;Puzzle
-169;Puzzle
+160;Aventure
+161;Gestion
+161;Stratégie en temps réel
+161;Multijoueur
+162;FPS
+162;Tactique
+163;Infiltration
+163;Multijoueur
+164;Plates-formes
+164;Plateformes
+165;Action
+165;Puzzle
+166;Puzzle
