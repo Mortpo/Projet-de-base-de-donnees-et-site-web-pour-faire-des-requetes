@@ -2,12 +2,13 @@
 <head><title>TEST</title></head>
 <body>
 
+
 <?php
 
         try
         {
 	        // On se connecte à MySQL
-	        $bdd = new PDO('mysql:host=localhost;dbname=ubisoft;charset=utf8', 'zeus', 'salut');
+	        $bdd = new PDO('mysql:host=localhost;dbname=ubisoft;charset=utf8', 'romain', 'romain');
         }
         catch(Exception $e)
         {

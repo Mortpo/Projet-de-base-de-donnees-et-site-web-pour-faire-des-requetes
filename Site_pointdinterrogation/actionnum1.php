@@ -16,22 +16,11 @@
                 die('Erreur : '.$e->getMessage());
         }
 
-
-
-        
-        
-
-    
-         $txt = $_POST["genre"];
-         echo $txt;
-         
-
-        
-        
-
         //Sans genre entrer
-		$req = $bdd->query("SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.nom_de_la_franchise, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre = '$txt'");
-		
+
+        $req = $bdd->prepare('SELECT Jeu.id, Jeu.titre_du_jeu, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre =:postgenre');
+        $req->execute(array('postgenre' => $_POST["genre"]));
+
         // On affiche chaque entrée une à une
         while ($donnees = $req->fetch())
         {
