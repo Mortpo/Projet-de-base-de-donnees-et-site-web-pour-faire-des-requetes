@@ -195,6 +195,10 @@ SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Genrejeu ON
 --afficher les jeux ayant pour support la PS2
 SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.annee_de_sortie, Supportjeu.support FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = 'PS2';
 
+SELECT Jeu.id, Jeu.titre_du_jeu, annee_de_sortie FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = 'PS2' AND annee_de_sortie >= '2001';
+
+SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.annee_de_sortie, Supportjeu.support FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = 'PS2' OR support = 'Game Boy';
+
 --nombre total de jeux
 SELECT COUNT(*) FROM Jeu;
 
