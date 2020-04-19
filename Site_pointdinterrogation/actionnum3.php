@@ -18,17 +18,17 @@
 
         //Sans genre entrer
 
-        $req = $bdd->prepare('SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.nom_de_la_franchise, Genrejeu.genre FROM Jeu  INNER JOIN Genrejeu ON Genrejeu.id = Jeu.id WHERE genre =:postgenre');
-        $req->execute(array('postgenre' => $_POST["genre"]));
-
+        $req = $bdd->prepare('SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.nom_de_la_franchise, directeur_du_jeu FROM Jeu WHERE directeur_du_jeu = :postdir');
+        $req->execute(array('postdir' => $_POST["directeur"]));
         // On affiche chaque entrée une à une
+
         while ($donnees = $req->fetch())
         {
         ?>
             <p>
             <strong>Jeu de la franchise</strong> : <?php echo $donnees['nom_de_la_franchise']; ?><br />
                                     L'ID de ce jeu est : <?php echo $donnees['id']; ?>, son titre est <?php echo $donnees['titre_du_jeu']; ?> !<br />
-                                    De genre <?php echo $donnees['genre']; ?> <br />
+                                    Son directeur principal(e) est <?php echo $donnees['directeur_du_jeu']; ?> <br />
                                    </p>
         <?php
         }

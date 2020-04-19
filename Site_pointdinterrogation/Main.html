@@ -91,7 +91,7 @@
             <h1>Requête pour avoir tout les jeux sortie avant ou après une date</h1>
             <div>
                 <form action="actionnum4.php" target="_blank" method="POST">
-                    <p>Date de sortie : avant <label class="switch"> <input type="checkbox"> <span
+                    <p>Date de sortie : avant <label class="switch"> <input type="checkbox" name="temps" value="1"> <span
                                 class="slider round"></span>
                         </label> après<input type="number" name="date" autocomplete="off"/> <input type="submit" class="button"
                             value="Executer">
@@ -108,8 +108,7 @@
             <h1>Requête pour avoir tout les jeux fait par un studio</h1>
             <div>
                 <form action="actionnum5.php" target="_blank" method="POST">
-                    <p>Le nom du studio : <input type="text" name="studio" autocomplete="off"/> <input type="submit" class="button"
-                            value="Executer"></p>
+                    <p>Le nom du studio : <input type="text" name="studio" autocomplete="off"/> <input type="submit" class="button" value="Executer"></p>
                 </form>
                 <button>Information</button>
                 <p class="info">
@@ -155,7 +154,7 @@
             <div>
                 <form action="actionnum6.php" target="_blank" method="POST">
                     <p>Le genre : <input type="text" name="genre2" autocomplete="off"/> Date de sortie : avant <label class="switch">
-                            <input type="checkbox"> <span class="slider round"></span>
+                            <input type="checkbox" name="temps" value="1"> <span class="slider round"></span>
                         </label> après <input type="number" name="date" autocomplete="off"/> <input type="submit" class="button"
                             value="Executer">
                     </p>
@@ -167,8 +166,8 @@
             <h1>Requête pour avoir tout les jeux d'un studo, sortie avant ou après une date</h1>
             <div>
                 <form action="actionnum7.php" target="_blank" method="POST">
-                    <p>Le studo : <input type="text" name="studio" autocomplete="off"/> Date de sortie : avant <label class="switch">
-                            <input type="checkbox"> <span class="slider round"></span>
+                    <p>Le studio : <input type="text" name="studio" autocomplete="off"/> Date de sortie : avant <label class="switch">
+                            <input type="checkbox" name="temps" value="1"> <span class="slider round"></span>
                         </label> après<input type="number" name="date" autocomplete="off"/> </label><input type="submit" class="button"
                             value="Executer"></p>
                 </form>
