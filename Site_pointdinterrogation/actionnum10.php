@@ -4,11 +4,11 @@
 
 
 <?php
-
+       
         try
         {
 	        // On se connecte à MySQL
-	        $bdd = new PDO('mysql:host=localhost;dbname=ubisoft;charset=utf8', 'zeus', 'salut');
+	        $bdd = new PDO('mysql:host=localhost;dbname=ubisoft;charset=utf8', 'romain', 'romain');
         }
         catch(Exception $e)
         {
@@ -17,8 +17,8 @@
         }
         
         //Sans genre entrer
-		$req = $bdd->query('SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.annee_de_sortie, Supportjeu.support, Jeu.nom_de_la_franchise FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = \'PS2\' OR support = \'Game Boy\'');
-		
+		$req = $bdd->prepare('SELECT Jeu.id, Jeu.titre_du_jeu, Jeu.annee_de_sortie, Supportjeu.support, Jeu.nom_de_la_franchise FROM Jeu INNER JOIN Supportjeu ON Supportjeu.id = Jeu.id WHERE support = :postsupport;');
+        $req->execute(array('postsupport' => $_POST["support"]));
         // On affiche chaque entrée une à une
         while ($donnees = $req->fetch())
         {
