@@ -102,7 +102,8 @@ IGNORE 1 LINES
 (id, personnage_principal);
 
 CREATE TABLE IF NOT EXISTS Studio( 
-       nom_studio VARCHAR(100) NOT NULL PRIMARY KEY      
+       nom_studio VARCHAR(100) NOT NULL PRIMARY KEY ,     
+       date_creation SMALLINT UNSIGNED NOT NULL
        
 ) ENGINE=INNODB;
 
@@ -111,7 +112,7 @@ INTO TABLE Studio
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(nom_studio);
+(nom_studio, date_creation);
 
 CREATE TABLE IF NOT EXISTS Studiojeu( 
        id SMALLINT UNSIGNED NOT NULL,
@@ -136,7 +137,9 @@ IGNORE 1 LINES
 
 
 CREATE TABLE IF NOT EXISTS Support( 
-       support VARCHAR(70) NOT NULL PRIMARY KEY     
+       support VARCHAR(70) NOT NULL PRIMARY KEY,
+       annee_de_sortie SMALLINT UNSIGNED NOT NULL,
+       marque VARCHAR(20) NOT NULL
        
 ) ENGINE=INNODB;
 
@@ -145,7 +148,7 @@ INTO TABLE Support
 FIELDS TERMINATED BY ';' 
 LINES TERMINATED BY '\n' 
 IGNORE 1 LINES 
-(support);
+(support, annee_de_sortie, marque);
 
 CREATE TABLE IF NOT EXISTS Supportjeu( 
        support VARCHAR(100) NOT NULL,
