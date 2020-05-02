@@ -33,7 +33,7 @@
         <?php
         }
         
-        $reponse->closeCursor(); // Termine le traitement de la requête
+        $req->closeCursor(); // Termine le traitement de la requête
 
         ?>
 </body>

@@ -4,7 +4,7 @@ USE ubisoft;
 
 CREATE TABLE IF NOT EXISTS Jeu( 
        id SMALLINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-       titre_du_jeu VARCHAR(200) UNIQUE NOT NULL, 
+       titre_du_jeu VARCHAR(200) NOT NULL, 
        annee_de_sortie INT(4) NOT NULL, 
        directeur_du_jeu VARCHAR(100) NOT NULL, 
        nom_de_la_franchise VARCHAR(30)
