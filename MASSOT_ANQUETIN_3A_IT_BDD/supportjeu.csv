@@ -1,0 +1,480 @@
+ID jeu PK FK;Support PK FK
+1;Amstrad CPC
+2;Atari ST
+2;Amstrad CPC
+2;DOS
+3;Amstrad CPC
+3;Atari ST
+3;DOS
+3;Amiga
+3;Commodore 64
+3;ZX Spectrum
+4;Amstrad CPC
+5;Amstrad CPC
+5;Atari ST
+5;Amiga
+6;Atari ST
+6;Amstrad CPC
+6;DOS
+7;Atari ST
+7;Amstrad CPC
+7;DOS
+8;Amstrad CPC
+9;Atari ST
+9;Amstrad CPC
+9;DOS
+10;Atari ST
+10;Amstrad CPC
+10;DOS
+11;Amstrad CPC
+12;Amstrad CPC
+13;Amstrad CPC
+14;Amstrad CPC
+14;Atari ST
+14;Commodore 64
+14;DOS
+14;ZX Spectrum
+15;Amiga
+15;Amstrad CPC
+15;Atari ST
+15;Commodore 64
+15;DOS
+15;GX-4000
+15;Lynx
+15;Super Nintendo
+15;ZX Spectrum
+16;Atari ST
+16;Amiga
+16;Commodore 64
+16;Amstrad CPC
+16;DOS
+16;ZX Spectrum
+17;Atari ST
+17;Amiga
+17;Commodore 64
+17;Amstrad CPC
+17;DOS
+17;ZX Spectrum
+18;Amiga
+18;Atari ST
+18;Commodore 64
+18;Amstrad CPC
+18;ZX Spectrum
+19;Amiga
+19;Atari ST
+19;Commodore 64
+19;Amstrad CPC
+19;ZX Spectrum
+20;Amstrad CPC
+20;Atari ST
+21;Amiga
+21;Amstrad CPC
+21;Atari ST
+21;Commodore 64
+21;DOS
+22;Amiga
+22;Atari ST
+22;DOS
+23;Amstrad CPC
+24;Amiga
+24;Atari ST
+24;DOS
+25;DOS
+25;Atari ST
+25;Amiga
+26;Amiga
+27;Amiga
+27;Atari ST
+27;DOS
+28;Mega Drive
+28;Game Boy
+28;NES
+28;Amiga
+28;Amstrad CPC
+28;Atari ST
+28;Commodore 64
+28;ZX Spectrum
+28;DOS
+28;Game Gear
+28;Master System
+28;MSX
+29;Super Nintendo
+29;Mega Drive
+29;PS1
+29;Saturn
+29;Game Boy
+29;Amiga
+29;Windows
+29;DOS
+30;DOS
+31;Windows
+31;DOS
+31;Jaguar
+31;PS1
+31;Saturn
+31;Game Boy Color
+31;Gizmondo
+32;DOS
+32;Windows
+32;PS1
+33;Windows
+33;Mac OS
+33;ScummVM
+34;Nintendo 64
+35;Saturn
+35;PS1
+35;Windows
+35;Nintendo Switch
+36;Windows
+37;Windows
+38;Windows
+39;Windows
+40;Nintendo 64
+41;Windows
+42;Windows
+42;Game Boy Color
+43;Windows
+43;Dreamcast
+43;Game Boy Color
+44;Nintendo 64
+44;PS1
+44;Windows
+45;Windows
+46;Dreamcast
+46;Game Boy Color
+46;Mac OS
+46;Nintendo 64
+46;PS1
+46;Windows
+47;Nintendo 64
+47;PS1
+48;Windows
+49;Game Boy Color
+50;Windows
+50;Dreamcast
+50;Game Boy Color
+50;PS2
+51;Nintendo 64
+51;Dreamcast
+51;PS1
+51;Windows
+52;Dreamcast
+52;Nintendo 64
+52;Windows
+52;Game Boy Color
+53;Windows
+54;Nintendo 64
+55;Windows
+55;Dreamcast
+55;Téléphone mobile
+56;Windows
+56;Mac OS
+56;Dreamcast
+56;PS1
+56;Game Boy Advance
+57;Windows
+57;Nintendo 64
+57;Game Boy Color
+58;Windows
+58;PS1
+59;Windows
+60;Windows
+61;PS2
+62;Nintendo 64
+62;PS1
+62;Game boy color
+63;Game boy color
+63;Windows
+63;PS1
+63;Nintendo 64
+63;Dreamcast
+63;PS2
+63;Gamecube
+64;Windows
+64;Game boy color
+64;PS1
+64;Nintendo 64
+64;Dreamcast
+64;PS2
+64;Amiga
+64;Atari ST
+65;Windows
+65;PS1
+66;Windows
+66;Game boy color
+67;Windows
+68;Windows
+69;Windows
+69;PS1
+70;PS2
+70;Xbox
+70;GameCube
+70;Windows
+70;Game Boy Advance
+71;Windows
+72;Game Boy Color
+73;Windows
+74;Windows
+74;PS2
+74;Dreamcast
+75;Windows
+76;Windows
+76;Dreamcast
+77;Dreamcast
+77;Windows
+77;PS2
+78;Windows
+79;Windows
+79;Mac OS
+79;PS2
+79;Xbox
+80;Windows
+81;PS1
+81;PS2
+81;Xbox
+81;Gamecube
+82;Windows
+83;Windows
+83;Xbox
+83;PS2
+83;Gamecube
+83;Wii
+84;Windows
+85;PS2
+86;Windows
+86;Mac OS
+86;DOS
+86;Game Boy Advance
+86;PSP
+86;Xbox 360
+87;Windows
+88;PS2
+88;GameCube
+89;Windows
+89;GameCube
+89;PS2
+89;Xbox
+90;Dreamcast
+90;PS2
+90;Nintendo Switch
+90;Windows
+91;Windows
+91;PS2
+91;GameCube
+91;Game Boy Advance
+91;Téléphone mobile
+92;Windows
+92;GameCube
+92;PS2
+92;Xbox
+93;PS1
+94;Mac OS
+94;Windows
+94;Saturn
+94;PS1
+94;Pocket PC
+94;iOS
+95;GameCube
+95;PS2
+95;Xbox
+95;Game Boy Advance
+96;PS2
+96;Windows
+97;GameCube
+97;Game Boy Advance
+97;Mac OS
+97;N-Gage
+97;PS2
+97;Windows
+97;Xbox
+97;Téléphone mobile
+98;Windows
+99;Windows
+99;Gamecube
+99;PS2
+99;Xbox
+99;Game Boy Advance
+100;PS2
+100;Xbox
+100;Windows
+100;GameCube
+100;Xbox 360
+100;PS3
+101;Gamecube
+102;Windows
+102;Xbox
+103;Windows
+103;Mac OS
+104;Windows
+105;Windows
+106;Windows
+106;Mac OS
+106;PS2
+106;Gamecube
+106;Xbox
+106;PS3
+106;Xbox 360
+106;Game Boy Advance
+106;N-Gage
+106;Téléphone mobile
+107;Windows
+107;Mac OS
+108;Windows
+109;Windows
+110;Windows
+110;Mac OS
+110;PS2
+110;Xbox
+110;Gamecube
+111;PS2
+111;GameCube
+112;Windows
+112;Xbox
+112;Gamecube
+112;PS2
+112;PS3
+112;Téléphone mobile
+113;PS2
+113;Xbox
+113;Game Boy Advance
+114;Game Boy Advance
+115;Windows
+116;Windows
+117;PS2
+118;N-Gage
+118;Nintendo DS
+118;Téléphone mobile
+119;Windows
+120;Windows
+120;PS3
+120;Xbox 360
+121;Windows
+122;Windows
+122;Nintendo DS
+123;Windows
+123;iOS
+123;Xbox
+124;Windows
+125;PS2
+125;PS3
+125;Windows
+125;Xbox
+125;GameCube
+125;PSP
+125;Téléphone mobile
+125;iOS
+126;PS2
+126;Xbox
+127;Windows
+128;Xbox
+128;PS2
+129;Wii
+129;Windows
+130;Nintendo DS
+131;Game Boy Advance
+132;GameCube
+132;PS2
+132;Xbox
+133;Windows
+133;Mac OS
+133;GameCube
+133;PS2
+133;Xbox
+133;Téléphone mobile
+134;Windows
+134;PS2
+134;Xbox
+134;GameCube
+134;Game Boy Advance
+134;PS3
+134;Téléphone mobile
+135;Windows
+136;PS2
+136;Xbox
+137;Windows
+137;PS2
+138;Windows
+138;PS2
+138;Xbox
+138;Linux
+138;Mac OS
+139;Windows
+139;Mac OS
+139;PS2
+139;Xbox
+139;Wii
+140;Windows
+140;PS2
+140;Xbox
+141;Game Boy Advance
+141;Nintendo DS
+142;Windows
+142;PS2
+142;Xbox
+143;Game Boy Advance
+143;Nintendo DS
+143;Windows
+144;PS2
+145;PSP
+145;Nintendo DS
+145;Xbox 360
+146;Xbox
+146;Xbox 360
+147;PS2
+148;Windows
+148;PS2
+148;Xbox
+149;Windows
+150;Xbox
+150;Xbox 360
+150;PS2
+150;GameCube
+150;Nintendo DS
+150;Game Boy Advance
+150;PSP
+150;Windows
+151;Windows
+151;iOS
+151;Téléphone mobile
+152;Windows
+152;Mac OS
+153;Nintendo DS
+154;PS2
+154;Windows
+155;Windows
+155;PS2
+155;Xbox
+156;PS3
+156;Wii
+156;PS2
+156;Windows
+156;Xbox
+156;GameCube
+156;Téléphone mobile
+157;PSP
+158;Game Boy Advance
+159;Windows
+160;PS2
+160;Xbox
+160;Game Boy Advance
+160;Nintendo DS
+160;Téléphone mobile
+161;Windows
+162;Windows
+162;Gamecube
+162;PS2
+162;Xbox
+162;Téléphone mobile
+163;Windows
+163;PS2
+163;Xbox
+163;Gamecube
+163;Nintendo DS
+163;N-Gage
+163;Xbox 360
+163;Nintendo 3DS
+163;PS3
+163;Téléphone mobile
+164;Xbox
+165;Game Boy Advance
+166;Windows

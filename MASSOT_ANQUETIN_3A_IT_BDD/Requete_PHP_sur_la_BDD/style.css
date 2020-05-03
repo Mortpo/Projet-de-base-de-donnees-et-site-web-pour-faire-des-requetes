@@ -1,0 +1,147 @@
+ /* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-flex;
+  width: 60px;
+  height: 18px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  display: none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: plum;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position:absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 2px;
+  bottom: 2px;
+  background-color: whitesmoke;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(63, 162, 243);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(63, 162, 243);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(42px);
+  -ms-transform: translateX(42px);
+  transform: translateX(42px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+} 
+
+body{
+  background-color: rgb(17, 17, 17);
+}
+
+h1{
+    font-size: 200%;
+    font-style: normal;
+    margin: 10px 10px 0px 0px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(23, 21, 48);
+    text-decoration: underline;
+    border-radius: 13px ;
+    color: rgb(187, 196, 196);
+    display: flex;
+    width: fit-content;
+    
+
+}
+h1:hover{
+  cursor: pointer;
+}
+
+div{
+
+    font-size: medium;
+    text-align: justify;
+    display: none;
+    
+}
+
+p{
+font-size: large;
+padding: large large large large;
+padding-left: 10px;
+margin-left: 1%;
+color: rgb(164, 172, 172);
+
+
+}
+
+.button {
+  cursor: pointer;
+  background-color: rgb(156, 84, 224); 
+  border: none;
+  border-radius: 3px;
+  color: rgb(164, 172, 172);
+  padding: larger larger larger larger;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  }
+
+ul{
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+.info{
+  display: none;
+  margin-left: 3%;
+  width: 90%;
+  word-wrap: normal;
+  background-color: rgb(4, 74, 185);
+}
+
+button{
+  cursor: pointer;
+  background-color: rgb(73, 70, 224); 
+  border: none;
+  border-radius: 3px;
+  color: rgb(164, 172, 172);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: large;
+  margin-left: 2%;
+
+}
+
+li div p ul{
+  width: max-content;
+}
