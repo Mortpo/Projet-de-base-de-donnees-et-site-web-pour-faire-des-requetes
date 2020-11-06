@@ -1,4 +1,12 @@
-Commande a executer depuis mariadb et dans le dossier ou ce situe le fichier "mysql.sql :
+# Projet de base de données
+
+Ceci est un projet de base de données sur une partie des jeux édités par Ubisoft.
+Nous avons développé un petit site pour faire des requêtes.
+
+Ce projet a été fait par MASSOT Lucas (https://github.com/XIONIX71) et ANQUETIN Romain.
+Les fichiers CSV on été faits par WALDNER Celine, MASSOT Lucas et ANQUETIN Romain.
+
+Commande a exécuter depuis mariadb et dans le dossier où se situe le fichier "mysql.sql :
 
 SOURCE mysql.sql;
 
@@ -8,17 +16,17 @@ Un serveur Apache est nécessaire pour faire les requêtes depuis le site intern
 
 # Exemple :
 
-# 1.
+# 1. Remplissage du champ de requête
 ![ScreenShot](/Screenshot/Screenshot_20201105_181117.png?raw=true "Exemple")
 
-# 2.
+# 2. Champs de remplissage pour ajouter un jeu
 ![ScreenShot](/Screenshot/Screenshot_20201105_181154.png?raw=true "Exemple")
 
-# 3.
+# 3. Extrait de résultat pour les jeux de type "RPG"
 ![ScreenShot](/Screenshot/Screenshot_20201105_182322.png?raw=true "Exemple de d'utilisation")
 
-# 4.
+# 4. Nombre de jeux dans la base de données compatible avec Windows
 ![ScreenShot](/Screenshot/Screenshot_20201105_182452.png?raw=true "Exemple de d'utilisation")
 
-# 5.
+# 5. Nombre de jeux dans la base de données
 ![ScreenShot](/Screenshot/Screenshot_20201105_182511.png?raw=true "Exemple de d'utilisation")
