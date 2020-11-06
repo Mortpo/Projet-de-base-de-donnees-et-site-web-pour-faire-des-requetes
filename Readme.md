@@ -11,23 +11,23 @@ Commande a exécuter depuis mariadb et dans le dossier où se situe le fichier "
 SOURCE mysql.sql;
 
 
-Un serveur Apache est nécessaire pour faire les requêtes depuis le site internet.
+Un serveur Apache est nécessaire pour faire les requêtes depuis le site internet. <div/>
 Le nom et le mot de passe de l'utilisateur pour effectuer des requêtes sur la base depuis le site sont dans les fichiers PHP, le plus simple et de crée cet utilisateur.
 
 
 # Exemple :
 
 # 1. Remplissage du champ de requête
-![ScreenShot](/Screenshot/Screenshot_20201105_181117.png?raw=true "Exemple")
+![ScreenShot](/Screenshot/Screenshot_20201105_181117.png?raw=true "Remplissage du champ de requête")
 
 # 2. Champs de remplissage pour ajouter un jeu
-![ScreenShot](/Screenshot/Screenshot_20201105_181154.png?raw=true "Exemple")
+![ScreenShot](/Screenshot/Screenshot_20201105_181154.png?raw=true "Champs de remplissage pour ajouter un jeu")
 
 # 3. Extrait de résultat pour les jeux de type "RPG"
-![ScreenShot](/Screenshot/Screenshot_20201105_182322.png?raw=true "Exemple de d'utilisation")
+![ScreenShot](/Screenshot/Screenshot_20201105_182322.png?raw=true " Extrait de résultat pour les jeux de type "RPG"")
 
 # 4. Nombre de jeux dans la base de données compatible avec Windows
-![ScreenShot](/Screenshot/Screenshot_20201105_182452.png?raw=true "Exemple de d'utilisation")
+![ScreenShot](/Screenshot/Screenshot_20201105_182452.png?raw=true "Nombre de jeux dans la base de données compatible avec Windows")
 
 # 5. Nombre de jeux dans la base de données
-![ScreenShot](/Screenshot/Screenshot_20201105_182511.png?raw=true "Exemple de d'utilisation")
+![ScreenShot](/Screenshot/Screenshot_20201105_182511.png?raw=true "Nombre de jeux dans la base de données")
