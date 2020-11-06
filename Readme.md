@@ -9,7 +9,7 @@ Un serveur Apache est nécessaire pour faire les requêtes depuis le site intern
 # Exemple :
 
 # 1.
-![ScreenShot](/Screenshot/Screenshot_20201105_181117.PNG?raw=true "Exemple")
+![ScreenShot](/Screenshot/Screenshot_20201105_181117.png?raw=true "Exemple")
 
 # 2.
 ![ScreenShot](/Screenshot/Screenshot_20201105_181154.png?raw=true "Exemple")
