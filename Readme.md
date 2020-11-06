@@ -12,6 +12,7 @@ SOURCE mysql.sql;
 
 
 Un serveur Apache est nécessaire pour faire les requêtes depuis le site internet
+Le nom et le mot de passe de l'utilisateur pour effectuer des requêtes sur la base depuis le site sont dans les fichiers PHP, le plus simple et de crée cet utilisateur.
 
 
 # Exemple :
