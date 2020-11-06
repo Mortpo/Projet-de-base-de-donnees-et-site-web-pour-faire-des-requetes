@@ -1,9 +1,9 @@
 # Projet de base de données
 
-Ceci est un projet de base de données sur une partie des jeux édités par Ubisoft.
-Nous avons développé un petit site pour faire des requêtes.
+Ceci est un projet de base de données sur une partie des jeux édités par Ubisoft. <div/>
+Nous avons développé un petit site pour faire des requêtes. <div/>
 
-Ce projet a été fait par MASSOT Lucas (https://github.com/XIONIX71) et ANQUETIN Romain.
+Ce projet a été fait par MASSOT Lucas (https://github.com/XIONIX71) et ANQUETIN Romain. <div/>
 Les fichiers CSV on été faits par WALDNER Celine, MASSOT Lucas et ANQUETIN Romain.
 
 Commande a exécuter depuis mariadb et dans le dossier où se situe le fichier "mysql.sql :
